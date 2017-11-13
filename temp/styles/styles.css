@@ -1186,3 +1186,7 @@ ul.publication-list {
   margin-bottom: 30px;
   padding: 0 20px;
 }
+
+.project-item {
+  margin-bottom: 15px;
+}
