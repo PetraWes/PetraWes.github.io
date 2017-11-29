@@ -460,7 +460,6 @@ button:focus {
   font-weight: bold;
   line-height: 1.5;
   margin-top: 0;
-  padding-top: 10px;
 }
 
 .about__content-subTitle {
@@ -475,7 +474,11 @@ button:focus {
 .about__content-paragraph {
   font-size: 16px;
   color: #7d7d7d;
-  margin-bottom: 30px;
+  margin-bottom: 0;
+}
+
+.about__extra-padding {
+	margin-bottom: 50px;
 }
 
 .publication-section {
