@@ -147,7 +147,7 @@ button:focus {
   font-weight: bold;
   color: #fff;
   letter-spacing: 13px;
-  margin-bottom: 25px;
+  margin-bottom: 45px;
 }
 
 .header__content__paragraph {
@@ -157,7 +157,7 @@ button:focus {
   margin-right: auto;
   margin-left: auto;
   font-family: Roboto-Light;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .header .navbar .navbar-nav > li > a,
