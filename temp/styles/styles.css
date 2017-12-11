@@ -102,7 +102,7 @@ button:focus {
 .header--bg {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
-  background: url("../../assets/images/header-background.png") no-repeat;
+  background: url("../../assets/images/BackgroundQatar.jpg") no-repeat;
   height: 800px;
   position: relative;
   background-size: cover;
@@ -118,7 +118,7 @@ button:focus {
   top: 0;
   bottom: 0;
   background-color: rgba(5, 180, 249, 0.9);
-  z-index: -1;
+  z-index: -25;
 }
 
 .header .navbar {
@@ -363,6 +363,13 @@ button:focus {
 
 .page-section__title {
   font-size: 30px;
+  font-weight: bold;
+  color: #556a87;
+  margin-bottom: 25px;
+}
+
+.page-section__subtitle {
+  font-size: 21px;
   font-weight: bold;
   color: #556a87;
   margin-bottom: 25px;
@@ -1081,33 +1088,23 @@ ul.publication-list {
   padding-right: 15px;
 }
 
-@media screen and (max-width: 991px) {
-  .footer__second {
-    padding-left: 20px;
-  }
-}
-
-.footer__second ul li {
+.footer__second li {
   padding-bottom: 10px;
 }
 
-.footer__third li {
-  padding-bottom: 10px;
-}
-
-.footer__third .glyphicon-envelope,
-.footer__third .glyphicon-earphone {
+.footer__second .glyphicon-envelope,
+.footer__second .glyphicon-earphone {
   color: #fff;
   padding-right: 10px;
 }
 
-.footer__third .form-control {
+.footer__second .form-control {
   padding: 21px 18px;
   border-radius: 24px;
 }
 
 @media screen and (max-width: 1199px) {
-  .footer__third {
+  .footer__second {
     padding-left: 20px;
   }
 }
@@ -1128,6 +1125,16 @@ ul.publication-list {
   position: absolute;
   top: 8px;
   right: 15px;
+}
+
+@media screen and (max-width: 991px) {
+  .footer__third {
+    padding-left: 20px;
+  }
+}
+
+.footer__third ul li {
+  padding-bottom: 10px;
 }
 
 @media screen and (max-width: 991px) {
@@ -1192,4 +1199,8 @@ ul.publication-list {
 
 .project-item {
   margin-bottom: 15px;
+}
+
+.image-with-upper-padding{
+	padding-top:50px;
 }
