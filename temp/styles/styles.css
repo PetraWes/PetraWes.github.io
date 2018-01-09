@@ -107,7 +107,7 @@ button:focus {
   height: 800px;
   position: relative;
   background-size: cover;
-  width: 100%
+  width: auto;
 }
 
 .header--bg:after {
