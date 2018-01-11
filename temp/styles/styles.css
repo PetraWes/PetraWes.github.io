@@ -123,6 +123,13 @@ button:focus {
   z-index: -25;
 }
 
+/* Fix header text being cut off */
+@media screen and (max-width: 468px) {
+  .header--bg {
+    height: 900px;
+  }
+}
+
 .header .navbar {
   padding-top: 30px;
   margin-bottom: 200px;
